@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "708227793453",
+    "firebase_url": "https://lawncare-114e9.firebaseio.com",
+    "project_id": "lawncare-114e9",
+    "storage_bucket": "lawncare-114e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708227793453:android:d3bdbc45cb96125c",
+        "android_client_info": {
+          "package_name": "com.example.carsonsmith.cs3270finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708227793453-ed493nhkaaetgh9rkqg2bj3r3vk0lg16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carsonsmith.cs3270finalproject",
+            "certificate_hash": "f9640b9d90d44dac37325892403fd9b4cf598642"
+          }
+        },
+        {
+          "client_id": "708227793453-igo1sp4h368ooffg1slf24pj2c8mmigu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC210xuh5aMTOx5qMbdySlJPWc3ObL0Jhg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708227793453-igo1sp4h368ooffg1slf24pj2c8mmigu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708227793453:android:73196fd0aac077d5",
+        "android_client_info": {
+          "package_name": "com.example.carsonsmith.finalprojectlawncareapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708227793453-9a4m88g6c6ht1a95ndesvr83dve34eub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carsonsmith.finalprojectlawncareapp",
+            "certificate_hash": "f9640b9d90d44dac37325892403fd9b4cf598642"
+          }
+        },
+        {
+          "client_id": "708227793453-igo1sp4h368ooffg1slf24pj2c8mmigu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC210xuh5aMTOx5qMbdySlJPWc3ObL0Jhg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708227793453-igo1sp4h368ooffg1slf24pj2c8mmigu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
