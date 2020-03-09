@@ -103,8 +103,6 @@ public class FirebaseUtil
                     Toast.makeText(callerActivity.getBaseContext(), "Welcome Back", Toast.LENGTH_LONG).show();
                 }
             };
-
-
         }
         customers = new ArrayList<Customer>();
 

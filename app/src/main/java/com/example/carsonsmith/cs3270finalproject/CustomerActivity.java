@@ -16,12 +16,15 @@ import java.util.ArrayList;
 
 public class CustomerActivity extends AppCompatActivity
 {
-    //region Class Variables
-    private TextInputEditText customerID, customerFirstName, customerLastName, EmailAddress, WeeklyPrice, City, State, ZipCode, PhoneNumber, StreetAddress;
+    //region Private Members
+
+    private TextInputEditText customerID, customerFirstName, customerLastName, EmailAddress, WeeklyPrice, City, State,
+            ZipCode, PhoneNumber, StreetAddress;
     private FirebaseDatabase mFirebaseDatabase;
     private DatabaseReference mDatabaseReference;
     Customer customer;
     String userID;
+
     //endregion
 
     @Override
@@ -108,7 +111,7 @@ public class CustomerActivity extends AppCompatActivity
     {
         switch (item.getItemId())
         {
-            case R.id.action_save:
+            case R.id.action_save_customer:
                 //Checking if first and last name have been entered
                 String firstNameCheck = customerFirstName.getText().toString();
                 String lastNameCheck = customerLastName.getText().toString();

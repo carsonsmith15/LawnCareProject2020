@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Lawn Care App</string>
-    <string name="sign_out">Sign Out</string> search_title
+    <string name="employees">Employees</string>
+    <string name="sign_out">Sign Out</string>
+    search_title
     <string name="search_title">Search for Customer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -55,4 +57,6 @@
     <string name="new_customer">New Customer</string>
     <string name="enter_payment_amount_here">Enter Payment Amount Here</string>
     <string name="email_address">Email Address</string>
+    <string name="new_employee">New Employee</string>
+    <string name="title_activity_employee">EmployeeActivity</string>
 </resources>

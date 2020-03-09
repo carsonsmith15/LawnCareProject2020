@@ -27,13 +27,15 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, SearchView.OnQueryTextListener
 {
-    //region MainActivity Variables
+    //region Private Members
+
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle actionBarDrawerToggle;
     private NavigationView navigationView;
     CustomerAdapter customerAdapter;
     ArrayList<Customer> customerArrayList;
     ArrayList<Customer> globalCustomerArrayList;
+
     //endregion
 
     //region onCreate
@@ -109,9 +111,15 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 return true;
 
             case R.id.action_insert_menu:
-                Intent intent = new Intent(this, CustomerActivity.class);
-                startActivity(intent);
+                Intent insertNewCustomerIntent = new Intent(this, CustomerActivity.class);
+                startActivity(insertNewCustomerIntent);
                 return true;
+
+            case R.id.action_employees:
+                Intent employeesIntent = new Intent(this, EmployeesActivity.class);
+                startActivity(employeesIntent);
+                return true;
+
         }
 
         return super.onOptionsItemSelected(item);

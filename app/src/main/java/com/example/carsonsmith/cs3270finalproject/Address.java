@@ -2,11 +2,18 @@ package com.example.carsonsmith.cs3270finalproject;
 
 public class Address
 {
+
+    //region Private Members
+
     private String ID;
     private String City;
     private String State;
     private String StreetAddress;
     private String ZipCode;
+
+    //endregion
+
+    //region Constructors
 
     Address () {}
 
@@ -25,7 +32,9 @@ public class Address
         ZipCode = zipCode;
     }
 
-    //Setters
+    //endregion
+
+    //region Setters
     public void setID(String ID) {
         this.ID = ID;
     }
@@ -46,8 +55,9 @@ public class Address
         ZipCode = zipCode;
     }
 
+    //endregion
 
-    //Getters
+    //region Getters
 
     public String getID() {
         return ID;
@@ -68,4 +78,7 @@ public class Address
     public String getZipCode() {
         return ZipCode;
     }
+
+    //endregion
+
 }

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item android:title="@string/save"
-        android:id="@+id/action_save_customer"
+        android:id="@+id/action_save_employee"
         app:showAsAction="always"
         android:icon="@drawable/ic_save_white_24dp"/>
 

@@ -9,6 +9,8 @@ import java.util.ArrayList;
 public class Customer implements Serializable
 {
 
+    //region Private Members
+
     private String customerID;
     private String FirstName;
     private String LastName;
@@ -21,38 +23,9 @@ public class Customer implements Serializable
     private String FullName;
     private String EmailAddress;
 
+    //endregion
 
-    public String getEmailAddress() {
-        return EmailAddress;
-    }
-
-    public void setEmailAddress(String emailAddress) {
-        this.EmailAddress = emailAddress;
-    }
-
-
-    public ArrayList<Payment> paymentArrayList;
-    private ArrayList<MowingHistory> mowingHistoryArrayList;
-
-    public ArrayList<Payment> getPaymentArrayList() {
-        return paymentArrayList;
-    }
-
-    public void setPaymentArrayList(ArrayList<Payment> paymentArrayList) {
-        this.paymentArrayList = paymentArrayList;
-    }
-
-    public ArrayList<MowingHistory> getMowingHistoryArrayList() {
-        return mowingHistoryArrayList;
-    }
-
-    public void setMowingHistoryArrayList(ArrayList<MowingHistory> mowingHistoryArrayList) {
-        this.mowingHistoryArrayList = mowingHistoryArrayList;
-    }
-
-    public void setFullName(String fullName) {
-        FullName = fullName;
-    }
+    //region Constructors
 
     Customer() {}
 
@@ -68,6 +41,10 @@ public class Customer implements Serializable
         Zip = zip;
         EmailAddress = emailAddress;
     }
+
+    //endregion
+
+    //region Getters and Setters
 
     public String getCustomerID() {
         return customerID;
@@ -144,4 +121,38 @@ public class Customer implements Serializable
     public void setZip(String zip) {
         Zip = zip;
     }
+
+    public String getEmailAddress() {
+        return EmailAddress;
+    }
+
+    public void setEmailAddress(String emailAddress) {
+        this.EmailAddress = emailAddress;
+    }
+
+    public ArrayList<Payment> paymentArrayList;
+    private ArrayList<MowingHistory> mowingHistoryArrayList;
+
+    public ArrayList<Payment> getPaymentArrayList() {
+        return paymentArrayList;
+    }
+
+    public void setPaymentArrayList(ArrayList<Payment> paymentArrayList) {
+        this.paymentArrayList = paymentArrayList;
+    }
+
+    public ArrayList<MowingHistory> getMowingHistoryArrayList() {
+        return mowingHistoryArrayList;
+    }
+
+    public void setMowingHistoryArrayList(ArrayList<MowingHistory> mowingHistoryArrayList) {
+        this.mowingHistoryArrayList = mowingHistoryArrayList;
+    }
+
+    public void setFullName(String fullName) {
+        FullName = fullName;
+    }
+
+    //endregion
+
 }

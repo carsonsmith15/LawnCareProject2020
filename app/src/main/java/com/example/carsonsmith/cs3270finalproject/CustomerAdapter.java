@@ -183,7 +183,6 @@ public class CustomerAdapter extends RecyclerView.Adapter<CustomerAdapter.Custom
             return false;
         }
 
-
     }
 
     public void updateList(ArrayList<Customer> list){

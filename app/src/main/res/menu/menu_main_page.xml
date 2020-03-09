@@ -10,6 +10,8 @@
         app:showAsAction="collapseActionView|ifRoom"
         app:actionViewClass="android.widget.SearchView" />
 
+    <item android:id="@+id/action_employees" android:title="@string/employees" app:showAsAction="never"/>
+
     <item android:title="@string/sign_out"
         android:id="@+id/action_signout" app:showAsAction="never" android:icon="@drawable/ic_exit_to_app_white_24dp" />
 
